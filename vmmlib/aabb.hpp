@@ -371,7 +371,7 @@ void AABB< T >::setEmpty()
 template< typename T > inline bool AABB< T >::isEmpty() const
 {
     return ( _min.x() >=  _max.x() || _min.y() >=  _max.y() ||
-             _min.z() >=  _max.x( ));
+             _min.z() >=  _max.z( ));
 }
 
 template< typename T >
